@@ -1,0 +1,43 @@
+{
+    "name": "reboundcreative/craftnet-cp",
+    "description": "Create and manage your plugin's licenses in your control panel.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craftnet cp"
+    ],
+    "support": {
+        "docs": "https://github.com/sidedwards/craftnet-cp/blob/master/README.md",
+        "issues": "https://github.com/sidedwards/craftnet-cp/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rebound Creative",
+            "homepage": "https://reboundcreative.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "reboundcreative\\craftnetcp\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craftnet CP",
+        "handle": "craftnet-cp",
+        "hasCpSettings": true,
+        "hasCpSection": true,
+        "changelogUrl": "https://raw.githubusercontent.com/sidedwards/craftnet-cp/master/CHANGELOG.md",
+        "components": {
+            "craftnetCpService": "reboundcreative\\craftnetcp\\services\\CraftnetCpService"
+        },
+        "class": "reboundcreative\\craftnetcp\\CraftnetCp"
+    }
+}
