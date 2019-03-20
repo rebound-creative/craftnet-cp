@@ -11,8 +11,8 @@
         "craftnet cp"
     ],
     "support": {
-        "docs": "https://github.com/sidedwards/craftnet-cp/blob/master/README.md",
-        "issues": "https://github.com/sidedwards/craftnet-cp/issues"
+        "docs": "https://github.com/rebound-creative/craftnet-cp/blob/master/README.md",
+        "issues": "https://github.com/rebound-creative/craftnet-cp/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,7 +34,7 @@
         "handle": "craftnet-cp",
         "hasCpSettings": true,
         "hasCpSection": true,
-        "changelogUrl": "https://raw.githubusercontent.com/sidedwards/craftnet-cp/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/rebound-creative/craftnet-cp/master/CHANGELOG.md",
         "components": {
             "craftnetCpService": "reboundcreative\\craftnetcp\\services\\CraftnetCpService"
         },
